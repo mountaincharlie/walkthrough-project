@@ -28,3 +28,38 @@ h1, h2{
     float: left;
     font-size: 280%;
 }
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu ul{
+    float: right;
+}
+
+/* need to float the li left within the ul to get the correct order */
+#menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* different way to style an underline */
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* setting active pages to have underlined menu item */
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
