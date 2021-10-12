@@ -200,3 +200,14 @@ hr{
     height:100%;
     border-radius: 50%;
 }
+
+/* meetup times */
+#times{
+    /* background-image: url('../images/dublin-city.webp'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: center; */
+    /* background-position: center; */
+    background: url('../images/dublin-city.webp') no-repeat center center;
+    width:100%;
+    overflow: hidden;
+}
