@@ -300,6 +300,17 @@ footer{
     hr{
         display:none;
     }
+
+    #times{
+        background-size: cover;
+    }
+
+    #times > div{
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* for phone screens */
@@ -336,5 +347,4 @@ footer{
         text-align:center;
         padding: 0 20px;
     }
-
 }
