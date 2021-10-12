@@ -265,7 +265,9 @@ footer{
     width:100%;
 }
 
-/* media queries (styles only applied when specific criteria are met) */
+/* media queries */
+
+/* styles only applied when specific criteria are met e.g. 'breakpoints' */
 
 @media screen and (max-width:1200px){
 
@@ -297,6 +299,18 @@ footer{
 
     hr{
         display:none;
+    }
+}
+
+/* for phone screens */
+@media screen and (max-width:950px) {
+    
+    #menu{
+        clear:left;
+        float:left;
+        margin-left:30px;
+        margin-bottom: 20px;
+        line-height: 25xpx;
     }
 
 }
